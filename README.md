@@ -27,6 +27,8 @@ Data cleaning was performed using **PostgreSQL**, including the following tasks:
 - Handled null values and empty strings
 - Removed duplicate records
 
+🔗 See the cleaning script: [`Data Cleaning Project.sql`](./Data%20Cleaning%20Project.sql)
+
 ## 🧰 Tools Used
 
 - PostgreSQL  
@@ -40,10 +42,29 @@ Data cleaning was performed using **PostgreSQL**, including the following tasks:
 - Preparing datasets for analysis and visualization
 - Importance of clean and structured data
 
+## 📊 Exploratory Data Analysis (EDA)
+
+I analyzed global layoffs from 2020 to 2023 by running SQL queries in PostgreSQL.
+
+### Key Questions Answered:
+- How did layoffs change year over year?
+- Which industries were most affected?
+- Which companies laid off employees multiple times?
+- How did layoffs vary by funding stage?
+- What were the top countries impacted?
+
+### Sample Insights:
+- 2022 saw a large spike in layoffs globally.
+- Several companies (e.g., Loft, Netflix, Uber) had layoffs across multiple years.
+- Some companies with large funding rounds still did layoffs.
+
+🔗 See the EDA script: [`Data Exploratory Analysis.sql`](./Data%20Exploratory%20Analysis.sql)
+
 ## 📁 Repository Contents
 
 - `layoffs.csv` – Original dataset
 - `Data Cleaning Project.sql` – SQL script used for data cleaning
+- `Exploratory Data Analysis.sql` - EDA script
 - `README.md` – Project documentation
 
 ## 🙌 Credits
