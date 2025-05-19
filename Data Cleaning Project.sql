@@ -112,6 +112,10 @@ UPDATE layoffs_staging
 SET Industry = NULL
 WHERE Industry = '';
 
+UPDATE layoffs_staging
+SET stage = NULL
+WHERE stage ILIKE 'NULL%';
+
 -- populating data (where industry is NULL is some places)
 SELECT ls1.company,  ls1.industry, ls2.company, ls2.industry
 FROM layoffs_staging AS ls1
