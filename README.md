@@ -58,7 +58,7 @@ I analyzed global layoffs from 2020 to 2023 by running SQL queries in PostgreSQL
 - Several companies (e.g., Loft, Netflix, Uber) had layoffs across multiple years.
 - Some companies with large funding rounds still did layoffs.
 
-🔗 See the EDA script: [`Exploratory Data Analysis.sql`](./Exploratory%20Datax%20Analysis.sql)
+🔗 See the EDA script: [`Exploratory Data Analysis.sql`](./Exploratory%20Data%20Analysis.sql)
 
 ## 📁 Repository Contents
 
